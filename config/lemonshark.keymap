@@ -56,6 +56,43 @@
         };
     };
 
+    macros {
+        o_umlaut: o_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(O) &kt RIGHT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_4 &kp KP_NUMBER_6 &kt RALT>;
+            label = "O_UMLAUT";
+        };
+
+        u_umlaut: u_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(O) &kt RIGHT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_5 &kp KP_NUMBER_2 &kt RALT>;
+            label = "U_UMLAUT";
+        };
+
+        e_umlaut: e_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(O) &kt RIGHT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_NUMBER_5 &kt RALT>;
+            label = "E_UMLAUT";
+        };
+
+        a_umlaut: a_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(O) &kt RIGHT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_2 &kp KP_NUMBER_8 &kt RALT>;
+            label = "A_UMLAUT";
+        };
+
+        eszett: eszett {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(O) &kt RIGHT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kt RALT>;
+            label = "ESZETT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
