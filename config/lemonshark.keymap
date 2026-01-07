@@ -103,7 +103,7 @@
 &kp TAB    &kp Q   &kp W                   &kp F                &kp P              &kp B      &kp RS(K_VOL_DN)
                                                                                                                 &kp MINUS  &kp K     &kp L              &kp U               &kp Y               &kp SQT   &kp SEMI
 &kp GRAVE  &kp A   &hrm_index LCTRL RS(R)  &hrm_index LSHIFT S  &hrm_index LGUI T  &kp G      &space_del
-                                                                                                                &enter     &kp M     &hrm_index LGUI T  &hrm_index RSHFT E  &hrm_index RCTRL I  &kp O     &mo 2
+                                                                                                                &enter     &kp M     &hrm_index LGUI N  &hrm_index RSHFT E  &hrm_index RCTRL I  &kp O     &mo 2
 &kp LSHFT  &kp Z   &kp X                   &kp C                &kp D              &kp LCTRL  &mo 1
                                                                                                                 &kp RSHFT  &kp RALT  &kp H              &kp COMMA           &kp DOT             &kp FSLH  &mo 4
             >;
