@@ -10,7 +10,7 @@ All subsequent builds will be triggered automatically whenever a change is pushe
 Edit your keymap <https://zmk.dev/docs/keymaps>, or use <https://nickcoutsos.github.io/keymap-editor/> to edit it visually.
 User keymap is located at [`config/lemonshark.keymap`](config/lemonshark.keymap).
 
-(actually me this time: thanks to genteure, damitus, and kate for the help with config, RGB, keymap, and the almighty shield wizard)
+(actually me this time: thanks to genteure, damitus, and berrykate for the help with shield wizard, RGB, and keymap respectively)
 
 -----
 
