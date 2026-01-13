@@ -58,7 +58,7 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <32>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
         };
     };
 
