@@ -99,13 +99,13 @@
         colemak-dh {
             bindings = <
 &kp ESC    &kp N1  &kp N2              &kp N3               &kp N4             &kp N5     &kp C_VOL_UP
-                                                                                                            &kp EQUAL  &kp N6    &kp N7             &kp N8              &kp N9              &kp N0    &kp BSLH
-&kp TAB    &kp Q   &kp W               &kp F                &kp P              &kp B      &kp RS(C_VOL_DN)
-                                                                                                            &kp MINUS  &kp K     &kp L              &kp U               &kp Y               &kp SQT   &kp SEMI
+                                                                                                        &kp EQUAL  &kp N6    &kp N7             &kp N8              &kp N9              &kp N0    &kp BSLH
+&kp TAB    &kp Q   &kp W               &kp F                &kp P              &kp B      &kp C_VOL_DN
+                                                                                                        &kp MINUS  &kp K     &kp L              &kp U               &kp Y               &kp SQT   &kp SEMI
 &kp GRAVE  &kp A   &hrm_index LCTRL R  &hrm_index LSHIFT S  &hrm_index LGUI T  &kp G      &space_del
-                                                                                                            &enter     &kp M     &hrm_index LGUI N  &hrm_index RSHFT E  &hrm_index RCTRL I  &kp O     &mo 2
+                                                                                                        &enter     &kp M     &hrm_index LGUI N  &hrm_index RSHFT E  &hrm_index RCTRL I  &kp O     &mo 2
 &kp LSHFT  &kp Z   &kp X               &kp C                &kp D              &kp LCTRL  &mo 1
-                                                                                                            &kp RSHFT  &kp RALT  &kp H              &kp COMMA           &kp DOT             &kp FSLH  &mo 4
+                                                                                                        &kp RSHFT  &kp RALT  &kp H              &kp COMMA           &kp DOT             &kp FSLH  &mo 4
             >;
 
             label = "Default";
@@ -173,14 +173,14 @@
 
         lighting {
             bindings = <
-&trans  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(0,25,95)  &rgb_ug RGB_COLOR_HSB(0,33,97)  &rgb_ug RGB_COLOR_HSB(0,39,95)  &rgb_ug RGB_COLOR_HSB(0,28,92)  &rgb_ug RGB_BRI
-                                                                                                                                                                                         &rgb_ug RGB_SAI  &rgb_ug RGB_COLOR_HSB(0,45,97)  &rgb_ug RGB_COLOR_HSB(0,41,96)  &rgb_ug RGB_COLOR_HSB(0,37,96)  &rgb_ug RGB_COLOR_HSB(0,18,93)  &rgb_ug RGB_COLOR_HSB(0,16,91)  &trans
-&trans  &trans                          &trans                          &trans                          &trans                          &trans                          &rgb_ug RGB_BRD
-                                                                                                                                                                                         &rgb_ug RGB_SAD  &trans                          &trans                          &trans                          &trans                          &trans                          &trans
-&trans  &trans                          &trans                          &trans                          &rgb_ug RGB_TOG                 &trans                          &trans
-                                                                                                                                                                                         &trans           &trans                          &rgb_ug RGB_TOG                 &trans                          &trans                          &trans                          &to 0
-&trans  &trans                          &trans                          &trans                          &trans                          &trans                          &trans
-                                                                                                                                                                                         &trans           &trans                          &trans                          &trans                          &trans                          &trans                          &to 4
+&trans  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_COLOR_HSB(286,91,50)  &rgb_ug RGB_COLOR_HSB(137,66,43)  &rgb_ug RGB_COLOR_HSB(175,91,50)  &rgb_ug RGB_COLOR_HSB(54,95,51)  &rgb_ug RGB_BRI
+                                                                                                                                                                                                &rgb_ug RGB_SAI  &rgb_ug RGB_COLOR_HSB(0,97,51)  &rgb_ug RGB_COLOR_HSB(263,100,52)  &rgb_ug RGB_COLOR_HSB(20,99,50)  &rgb_ug RGB_COLOR_HSB(225,94,50)  &rgb_ug RGB_COLOR_HSB(0,16,91)  &trans
+&trans  &trans                          &trans                            &trans                            &trans                            &trans                           &rgb_ug RGB_BRD
+                                                                                                                                                                                                &rgb_ug RGB_SAD  &rgb_ug RGB_SAI                 &trans                             &trans                           &trans                            &trans                          &trans
+&trans  &trans                          &trans                            &trans                            &rgb_ug RGB_TOG                   &trans                           &trans
+                                                                                                                                                                                                &trans           &rgb_ug RGB_SAD                 &rgb_ug RGB_EFF                    &trans                           &trans                            &trans                          &to 0
+&trans  &trans                          &trans                            &trans                            &trans                            &trans                           &trans
+                                                                                                                                                                                                &trans           &trans                          &trans                             &trans                           &trans                            &trans                          &to 4
             >;
         };
     };
