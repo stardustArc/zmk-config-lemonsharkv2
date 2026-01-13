@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -16,6 +17,11 @@
         combo_j {
             bindings = <&kp J>;
             key-positions = <18 17>;
+        };
+
+        middle {
+            bindings = <&mkp MB3>;
+            key-positions = <34 35>;
         };
     };
 
@@ -114,13 +120,13 @@
         brackets {
             bindings = <
 &trans  &trans  &kp KP_NUMBER_7      &kp RS(KP_NUMBER_8)  &kp KP_NUMBER_9  &trans  &trans
-                                                                                           &trans  &trans  &trans            &trans    &trans  &trans  &trans
+                                                                                             &trans    &trans  &trans            &trans    &trans  &trans  &trans
 &trans  &trans  &kp KP_NUMBER_4      &kp KP_NUMBER_5      &kp KP_NUMBER_6  &trans  &trans
-                                                                                           &trans  &trans  &kp LBRC          &kp RBRC  &trans  &trans  &trans
-&trans  &trans  &kp KP_NUMBER_1      &kp KP_NUMBER_2      &kp KP_NUMBER_3  &trans  &trans
-                                                                                           &trans  &trans  &kp LEFT_BRACKET  &kp RBKT  &trans  &trans  &trans
+                                                                                             &trans    &trans  &kp LBRC          &kp RBRC  &trans  &trans  &trans
+&trans  &trans  &kp KP_NUMBER_1      &kp KP_NUMBER_2      &kp KP_NUMBER_3  &trans  &mkp MB1
+                                                                                             &mkp MB2  &trans  &kp LEFT_BRACKET  &kp RBKT  &trans  &trans  &trans
 &trans  &trans  &kp RS(KP_NUMBER_0)  &kp KP_DOT           &trans           &trans  &trans
-                                                                                           &trans  &trans  &trans            &trans    &trans  &trans  &trans
+                                                                                             &trans    &trans  &trans            &trans    &trans  &trans  &trans
             >;
 
             label = "upper";
