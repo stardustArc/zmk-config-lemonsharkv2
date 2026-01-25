@@ -150,14 +150,14 @@
 
         games {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans
-                                                           &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T   &trans
-                                                           &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&kp LSHFT  &kp A   &kp S   &kp D   &kp F   &kp G   &trans
-                                                           &trans  &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans  &to 0
-&kp LCTRL  &kp Z   &kp X   &kp C   &kp V   &trans  &trans
-                                                           &trans  &trans  &trans    &kp DOWN  &trans     &trans  &to 4
+&kp ESC     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &trans
+                                                               &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&kp TAB     &kp Q   &kp W   &kp E   &kp R   &kp T      &trans
+                                                               &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&kp LCTRL   &kp A   &kp S   &kp D   &kp F   &kp G      &trans
+                                                               &trans  &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans  &to 0
+&kp LSHIFT  &kp Z   &kp X   &kp C   &kp V   &kp LCTRL  &mo 6
+                                                               &trans  &trans  &trans    &kp DOWN  &trans     &trans  &to 4
             >;
 
             label = "WASD";
@@ -189,6 +189,23 @@
 &trans  &trans                          &trans                            &trans                            &trans                            &trans                           &trans
                                                                                                                                                                                                 &trans           &trans                          &trans                             &trans                           &trans                            &trans                          &to 4
             >;
+
+            label = "RGB";
+        };
+
+        game_f {
+            bindings = <
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F11  &trans
+                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &trans
+                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &trans
+                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &trans
+                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "g_function";
         };
     };
 
