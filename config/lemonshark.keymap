@@ -215,7 +215,7 @@
 &kp RET    &kp M   &kp F   &kp Y   &kp L   &kp BSPC   &trans
                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp RALT   &kp A   &kp R   &kp S   &kp E   &to 8      &kp SPACE
-                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &to 0
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp D   &kp LCTRL  &mo 1
                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
