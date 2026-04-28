@@ -134,7 +134,7 @@
 &trans   &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DELETE    &mkp MB1
                                                                                             &mkp MB2  &trans  &kp LEFT_BRACKET      &kp RBKT               &trans  &trans  &trans
 &trans   &trans  &kp KP_NUMBER_0  &kp KP_DOT       &trans           &trans        &trans
-                                                                                            &trans    &trans  &kt LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
+                                                                                            &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
             >;
 
             label = "upper";
