@@ -17,11 +17,13 @@
         combo_j {
             bindings = <&kp J>;
             key-positions = <18 17>;
+            layers = <0>;
         };
 
         middle {
             bindings = <&mkp MB3>;
             key-positions = <34 35>;
+            layers = <1>;
         };
     };
 
@@ -58,7 +60,7 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <32>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
     };
@@ -142,14 +144,14 @@
 
         nav {
             bindings = <
-&trans  &trans  &kp F1   &kp F2   &kp F3   &trans  &trans
-                                                           &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &kp F4   &kp F5   &kp F6   &trans  &trans
-                                                           &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &kp F7   &kp F8   &kp F9   &trans  &trans
-                                                           &trans  &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans  &trans
-&trans  &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
-                                                           &trans  &trans  &trans    &kp DOWN  &trans     &trans  &trans
+&trans    &trans  &kp F1   &kp F2   &kp F3   &trans  &trans
+                                                             &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans    &trans  &kp F4   &kp F5   &kp F6   &trans  &trans
+                                                             &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&kp LGUI  &trans  &kp F7   &kp F8   &kp F9   &trans  &trans
+                                                             &trans  &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans  &trans
+&trans    &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
+                                                             &trans  &trans  &trans    &kp DOWN  &trans     &trans  &trans
             >;
 
             label = "nav";
